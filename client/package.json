@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://gitalvininfo.github.io/instagram-decentralized",
   "dependencies": {
+    "@truffle/hdwallet-provider": "^1.7.0",
     "ipfs-http-client": "^53.0.1",
     "react": "16.11.0",
     "react-dom": "16.11.0",
@@ -53,7 +54,6 @@
     "@storybook/addon-links": "^6.3.8",
     "@storybook/node-logger": "^6.3.8",
     "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.3.8",
-    "gh-pages": "^3.2.3"
+    "@storybook/react": "^6.3.8"
   }
 }
