@@ -2187,6 +2187,82 @@
     "version": "0.8.7+commit.e28d00a7.Emscripten.clang"
   },
   "networks": {
+    "97": {
+      "events": {
+        "0xb80f87406b72baa5a47a424e6c8f284ee91e4fef063c94c62ab1ea33a27a858b": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "ipfsHash",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "text",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "user",
+              "type": "address"
+            }
+          ],
+          "name": "PostCreated",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x07D73c1d7BEC6E43ab0aF584499bfFb6e0B00131",
+      "transactionHash": "0xfab9bf40e0b07111aa3036ee0affd8d84e2f138b1307f31c7c527bb548be7d3a"
+    },
+    "5777": {
+      "events": {
+        "0xb80f87406b72baa5a47a424e6c8f284ee91e4fef063c94c62ab1ea33a27a858b": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "ipfsHash",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "text",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "user",
+              "type": "address"
+            }
+          ],
+          "name": "PostCreated",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xd0295b8Dd6B11bbF7677DB86D8F6D27256899C95",
+      "transactionHash": "0x99d9002a246951f40b9ba56d2d5a8ebc887d421a7651f19acdaf0e947dc37569"
+    },
     "1637472901402": {
       "events": {
         "0xb80f87406b72baa5a47a424e6c8f284ee91e4fef063c94c62ab1ea33a27a858b": {
@@ -2227,7 +2303,7 @@
     }
   },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-11-21T05:35:20.758Z",
+  "updatedAt": "2021-11-21T08:46:33.522Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

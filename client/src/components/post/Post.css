@@ -1,0 +1,27 @@
+.post {
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.post-image {
+    height: auto;
+}
+
+.post-description {
+    margin-top: 10px;
+}
+
+.user-banner {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.post,
+.post-image {
+    width: 380px;
+}
+
+.post-description-container,
+.post-header {
+    padding: 10px;
+}

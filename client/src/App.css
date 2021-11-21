@@ -1,0 +1,13 @@
+.app-button {
+    border-radius: 10px;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+}
+
+.app-button-primary {
+    background-color: #851aff;
+}
